@@ -81,6 +81,9 @@ int main (int argc, char *argv[])
 		//Fechar ficheiro
 		close (fd_pessoas);
 
+		//Libertar Pessoa
+		free (p);
+
 		//Imprimir índice de inserção
 		printf ("registo %ld\n", indice);
 	}
