@@ -91,4 +91,8 @@ main ()
 	for (i=0; i<LINHAS; i++)
 		if (resultado[i] == 0)
 			printf ("Filho-%d, ecnontrou na linha %d\n", filho[i], i);
+
+	//Libertação da matriz
+	for (i=0; i<LINHAS; i++)
+		free (matriz[i]);
 }
