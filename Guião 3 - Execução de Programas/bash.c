@@ -174,8 +174,8 @@ char **monta_argumentos (char buf[], size_t bytes, int *n_argumentos)
 	argumentos[k] = NULL;
 
 
-	//Devolver o número total de palavras -argumentos- encontradas na linha
-	(*n_argumentos) = n_args;
+	//Devolver o número total de argumentos presentes na matriz -incluindo NULL-
+	(*n_argumentos) = n_args + 1;
 	//Devolver o apontador -heap- da matriz que contém os argumentos
 	return argumentos;
 }
