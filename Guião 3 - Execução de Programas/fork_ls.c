@@ -5,7 +5,7 @@
 
 main ()
 {
-	//Identificador dos processo filho
+	//Identificador do processo filho
 	pid_t filho;
 	//Informação acerca da espera
 	pid_t who;
