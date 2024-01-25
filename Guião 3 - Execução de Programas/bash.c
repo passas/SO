@@ -132,8 +132,6 @@ char **monta_argumentos (char buf[], size_t bytes, int *n_argumentos)
 	//Variável de suporte à percepção do parsing de uma palavra
 	int in_palavra;
 
-	int n, c;
-
 	//Estar fora da palavra
 	in_palavra = 0;
 	//Preparar as cópias das palavras -argumentos-
