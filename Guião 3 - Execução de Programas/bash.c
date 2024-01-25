@@ -5,7 +5,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-
 //Função que analisa uma linha e: (1) monta uma matriz -heap- de argumentos, e (2) informa da quantidade de argumentos.
 char **monta_argumentos (char buf[], size_t bytes, int *n_argumentos);
 //Função responsável por libertar o espaço -heap- ocupado pela matriz de argumentos.
