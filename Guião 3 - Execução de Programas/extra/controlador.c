@@ -130,7 +130,7 @@ main (int argc, char *argv[])
 		}
 	}
 
-	//stdout: informar quantas vezes exxecutou cada programa
+	//stdout: informar quantas vezes executou cada programa
 	for (int i=1; i<argc; i++)
 		printf ("%s %d\n", argv[i], contador[i]);
 
