@@ -13,7 +13,7 @@ int main (int argc, char *argv[])
 	//Gerar um número entre [0, 2]
 	error = random () % 3;
 
-	//stdout: informar número gerado aleatorimente
+	//stdout: informar número gerado aleatoriamente
 	printf ("%s: %d\n", argv[0], error);
 
 	//Devovler código de erro para o exterior
