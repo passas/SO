@@ -33,9 +33,9 @@ int main (int argc, char *argv[])
 		return 202;
 
 	//Iniciar processo de transcrição
-	while ( (byte_rd = read (fd_fonte, b, 1)) > 0 )
+	while ( (byte_rd = read (fd_fonte, b, 1)) > 0 ) //lêr 1 byte do ficheiro de origem
 	{
-		byte_rw = write (fd_destino, b, 1);
+		byte_rw = write (fd_destino, b, 1); //escrever 1 byte no fichiero destino
 	}
 
 	//Fechar fonte e destino
