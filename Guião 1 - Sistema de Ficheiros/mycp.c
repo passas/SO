@@ -38,8 +38,10 @@ int main (int argc, char *argv[])
 		byte_rw = write (fd_destino, b, 1); //escrever 1 byte no fichiero destino
 	}
 
-	//Fechar fonte e destino
-	close (fd_fonte); close (fd_destino);
+	//Fechar -ficheiro descritor- fonte
+	close (fd_fonte);
+	//Fechar -ficheiro descritor- destino
+	close (fd_destino);
 
 	return 0;
 }
